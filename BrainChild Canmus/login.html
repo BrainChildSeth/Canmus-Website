@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-signin-scope" content="profile email">
+        <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+        
+    <title>Login | Canmus Contacts</title>
+
+    <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/image-effects.css" rel="stylesheet">
+        <link href="css/custom-styles.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="css/font-awesome-ie7.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<body>
+    <style>
+        body {
+            background-image: url('/images/wallpaperlogin.jpg');
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+            background-size: 100% 100%;
+            }
+    </style>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="site-header spacing-t">
+                    <div class="col-md-1 ">
+                        <div class="site-name spacing-b">
+                            <img src="images/logo.png">
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="site-name spacing-b">
+                            <h1> <font color="orange">C</font>ANMUS <font color="orange">S</font>OLUTIONS</h1>
+                            <h3>SOLUTIONS IS SIMPLIFYING IT . . .</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <nav class="navbar pull-right " role="navigation">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse"><h3 class="hide">Menu</h3>
+                                    <span class="fw-icon-th-list "></span>
+                                </button>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="home.html">Home</a></li>
+                                    <li class="dropdown ">
+                                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown">Account <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Create Account</a></li>
+                                            <li><a href="#">Sign In</a></li>
+                                            <li><a href="#">Sign Out</a></li>
+                                            <li><a href="#">Manage Account</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</header>    
+	<h2 align="center">Kindly login to your account or create a new account to proceed...</h2>
+    <div class="ruler"></div><br>
+	<section id="form"><!--form-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-1">
+					<div class="login-form"><!--login form-->
+						<h1 align="center">Account Login</h1><br>
+						<form action="#">
+                            <div class="input-container">
+                                <i class="fa fa-user-circle icon1"></i>
+                                <input type="text" class="form-control" required="required" placeholder="User Name"/>
+                            </div>
+                            <div class="input-container">
+                                <i class="fa fa-unlock icon1"></i>
+                                <input type="password" class="form-control" required="required" placeholder="Password"/>
+                            </div>
+                            <div class="form-group col-md-13">
+                            <label>
+                                <input type="checkbox" name="remember"> <font color="white">Keep Me Signed In</font>
+                            </label>
+                            </div>
+                            <div class="col-md-13">
+                                <button type="submit" class="btn btn-default pull-right" style="background-color:#808080">Login</button>
+                                <button type="reset" class="btn">Cancel</button>
+                            </div><br>
+                            <div class="col-md-13">
+                                <span class="psw"><font color="white">Forgot password? </font><a href="#">Click Here</a></span>
+                            </div>
+						</form>
+					</div><!--/login form-->
+				</div>
+                
+				<div class="col-sm-2"><br>
+                    <h2 class="or">-OR-</h2>
+				</div>
+				<div class="col-sm-4">
+					<div class="signup-form"><!--sign up form-->
+						<h1 align="center">New User Sign up</h1><br>
+						<form action="#" method="post">
+							<div class="input-container">
+                                <i class="fa fa-user-circle icon1"></i>
+                                <input type="text" class="form-control" required="required" placeholder="User Name"/>
+                            </div>
+                            <div class="input-container">
+                                <i class="fa fa-envelope icon1"></i>
+                                <input type="email" class="form-control" required="required" placeholder="Email Address"/>
+                            </div>
+                            <div class="input-container">
+                                <i class="fa fa-unlock icon1"></i>
+                                <input type="password" class="form-control" required="required" placeholder="Password"/>
+                            </div>
+                            <div class="input-container">
+                                <i class="fa fa-unlock icon1"></i>
+                                <input type="password" class="form-control" required="required" placeholder="Confirm Password"/>
+                            </div>
+                            <div class="form-group col-md-13">
+                            <label>
+                                <input type="checkbox" required="required" name="remember"> <font color="white">I Agree with the <a href="#">Terms and Conditions</a></font>
+                            </label>
+                            </div>
+                            <div class="col-md-13">
+                                <button type="submit" class="btn btn-default pull-right" style="background-color:#808080">Sign Up</button>
+                                <button type="reset" class="btn">Cancel</button>
+                            </div>
+						</form>
+                        
+					</div><!--/sign up form-->
+				</div>
+			</div>
+		</div>     
+        <div class="container">
+            <div class="social-auth-links text-center">
+                <h2>- OR -</h2>
+                <a href="#" class="btn btn-social btn-facebook btn-flat" style="background-color:#3B5998"><i class="fa fa-facebook"></i> Sign up using Facebook</a>
+                <a href="#" class="btn  btn-social btn-google btn-flat" style="background-color:#DD4B39"><i class="fa fa-google"></i> Sign up using Google</a>
+                <a href="#" class="btn btn-social btn-twitter btn-flat" style="background-color:#55ACEE"><i class="fa fa-twitter"></i> Sign up using Twitter</a>
+            </div>
+        </div><!-- /.register-box --><br>
+        
+        <div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+        <script>
+            function onSignIn(googleUser) {
+                // Useful data for your client-side scripts:
+                var profile = googleUser.getBasicProfile();
+                console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+                console.log('Full Name: ' + profile.getName());
+                console.log('Given Name: ' + profile.getGivenName());
+                console.log('Family Name: ' + profile.getFamilyName());
+                console.log("Image URL: " + profile.getImageUrl());
+                console.log("Email: " + profile.getEmail());
+                // The ID token you need to pass to your backend:
+                var id_token = googleUser.getAuthResponse().id_token;
+                console.log("ID Token: " + id_token);
+                }
+        </script> 
+        <div class="ruler"></div>    
+    </section><!--/form--> <br>
+    <div class="container">
+        <h2 align="center">Canmus Solutions | © 2020 | All Rights Reserved</h2>
+        <h3 align="right"><a href="#" >Terms and Conditions</a></h3>
+    </div>    
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+ 	<script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>	
+    <script src="js/scripts.js"></script>
+</body>
+</html>
